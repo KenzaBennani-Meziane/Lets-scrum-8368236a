@@ -1,0 +1,208 @@
+/*CSS */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Sarpanch";
+}
+
+/*ProjectX title*/
+.title {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 80px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-image: url('https://i.pinimg.com/originals/cf/d3/45/cfd345380d5ee7d84995a081d0319e63.gif');
+  background-attachment: fixed;
+  background-size: 77%;
+  color: transparent;
+  -webkit-background-clip:text;
+
+}
+
+/*Navigation Bar*/
+
+nav {
+
+  margin-top: 80px;
+  position: fixed;
+
+}
+
+nav ul li {
+  text-align: left;
+   list-style: none;
+   border-top: 2px solid #36393f;
+   text-decoration: none;
+   padding: 0;
+   letter-spacing: 1px;
+   height: 30px;
+}
+
+nav ul li a, nav ul li a:visited {
+  display: block;
+  color: #8e9297;
+  text-decoration: none;
+}
+
+/*Daytime background classes*/
+.day{
+  background-image: url("https://static2.aniimg.com/upload/20170516/429/K/q/B/KqBEEF.jpg");
+  background-attachment: fixed;
+}
+
+.afternoon{
+  background-image: url("https://i.imgur.com/yDIkuur.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.night{
+  background-image: url("https://i.pinimg.com/originals/cd/1e/44/cd1e44f2f201dc2486c6b852d6998080.jpg");
+  background-attachment: fixed;
+}
+
+.midnight{
+  background-image: url("https://cdn.jsdelivr.net/gh/suikastar/suikastar.github.io@latest/images/classroom_night_02.jpg");
+  background-attachment: fixed;
+}
+
+/*-----------------------------------------------------*/
+
+.text{
+  color: white;
+  text-align: center;
+  margin: 350px 0;
+  left: 29px
+  font-family: "Sarpanch";
+}
+
+/*-----------------------------------------------------*/
+
+h1.team-h1 {
+  margin: 0;
+  position: absolute;
+  top: -16px;
+  text-align: center;
+  left: 40%;
+  font-family: georgia;
+  font-style: italic;
+  background-color: white;
+  padding: 0px 20px;
+  color: #000;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+   .cf {
+    *zoom: 1;
+  }
+  .team-members {
+    position: center;
+  }
+
+  .team-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px #e9e9e9 solid;
+    border-bottom: 1px #e9e9e9 solid;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+    position: relative;
+  }
+
+  .team-member {
+    width: 13%;
+    float: left;
+    text-align: center;
+    margin-right: 20%;
+  }
+
+  .team-member:last-child {
+    margin-right: 0;
+  }
+
+
+  .team-member span,
+  .team-member h3 {
+    font-family: sans-serif;
+    letter-spacing: -1px;
+  }
+
+  .team-member h3 {
+    color: rgb(139, 64, 64);
+  }
+
+  .email {
+    color: whitesmoke;
+
+  }
+
+  .team-member span {
+    display: block;
+
+  }
+  .team-photo {
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    transition: 0.1s transform ease-in-out;
+  }
+
+
+  .team-photo:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+
+
+
+  @media (max-width:650px){
+    .team-member {
+      float: none;
+      display: block;
+      margin: 50px auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    .team-member h3,
+    .team-member span {
+      margin: 15px auto;
+    }
+  }
+
+  #weatherInfo{
+
+    text-align: center;
+    position: relative;
+  }
+
+ /* iframe {
+    margin-top: 20%
+  }*/
+  main{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20%;
+  }
+
+
+  .h1{
+    text-align: center;
+  }
