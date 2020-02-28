@@ -20,10 +20,8 @@ body{
 }
 
 /*Navigation Bar*/
-
 nav {
-
-  margin-top: 80px;
+  margin-top: 87px;
   position: fixed;
 
 }
@@ -40,7 +38,7 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
   display: block;
-  color: #8e9297;
+  color: #eeeeee;
   text-decoration: none;
 }
 
@@ -48,13 +46,14 @@ nav ul li a, nav ul li a:visited {
 .day{
   background-image: url("https://static2.aniimg.com/upload/20170516/429/K/q/B/KqBEEF.jpg");
   background-attachment: fixed;
-}
+} 
 
 .afternoon{
-  background-image: url("https://i.imgur.com/yDIkuur.jpg");
+  background-image: url("https://pbs.twimg.com/media/D6JYOjFW0AAbBnH.jpg:large");
   background-attachment: fixed;
   background-position: center;
 }
+
 
 .night{
   background-image: url("https://i.pinimg.com/originals/cd/1e/44/cd1e44f2f201dc2486c6b852d6998080.jpg");
@@ -64,10 +63,15 @@ nav ul li a, nav ul li a:visited {
 .midnight{
   background-image: url("https://cdn.jsdelivr.net/gh/suikastar/suikastar.github.io@latest/images/classroom_night_02.jpg");
   background-attachment: fixed;
-}
+} 
 
-/*-----------------------------------------------------*/
-
+/*Temperature and Density Numbers*/
+.tempj{
+  text-align: center;
+    margin-top: 80px
+  }
+ /*-----------------------------------------------------*/
+ 
 .text{
   color: white;
   text-align: center;
@@ -84,7 +88,7 @@ h1.team-h1 {
   top: -16px;
   text-align: center;
   left: 40%;
-  font-family: georgia;
+  font-family:"Sarpanch";
   font-style: italic;
   background-color: white;
   padding: 0px 20px;
@@ -128,7 +132,8 @@ h1.team-h1 {
     width: 13%;
     float: left;
     text-align: center;
-    margin-right: 20%;
+    margin-right: 20px;
+    margin-left: 17ex;
   }
 
   .team-member:last-child {
@@ -138,7 +143,7 @@ h1.team-h1 {
 
   .team-member span,
   .team-member h3 {
-    font-family: sans-serif;
+    font-family: "Sarpanch";
     letter-spacing: -1px;
   }
 
